@@ -1,0 +1,43 @@
+
+
+header{
+    text-align: center;
+}
+
+h2{
+    color: rgb(43, 104, 226);
+}
+h3{
+    color:chocolate
+}
+    
+body{
+    background-color:antiquewhite
+}
+
+p, ul{
+    font-family:Verdana, Geneva, Tahoma, sans-serif}
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+padding: 20px;
+}
+
+.grid1, .grid2{
+    display: grid;
+    grid-template-rows: auto, auto, auto;
+    border: 1px, solid #ccccccaa;
+    padding: 5px;
+}
+
+.grid2 p{
+    padding-bottom: 37px;
+}
+
+
+
+
+
+
